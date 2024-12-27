@@ -1,12 +1,13 @@
-
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <div className="h-auto w-full overflow-hidden"> 
+        <Navbar />
+      </div>
+    </>
+  );
+};
 
-export default App
-
+export default App;
