@@ -1,14 +1,18 @@
-import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
-import './index.css'
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Navbar from "./Components/Navbar/Nav";
+import "./index.css";
+
+import Skills from "./Components/Skills/Skills";
 
 const App = () => {
   return (
     <>
-      <div > 
-        <Navbar />
-        <Home />
-      </div>
+      <Navbar />
+      <Home />
+      <About />
+
+      <Skills />
     </>
   );
 };

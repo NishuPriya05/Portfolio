@@ -5,48 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", serif;
 }
-
 body {
   background-color: rgb(11, 26, 51);
-}
-
-.nav_bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  position: fixed;
-  top: 0;
-}
-
-ul a{
-  cursor: pointer;
-}
-
-a:hover{
-  color: rgb(107, 211, 211) !important;
-  border-bottom: 2px solid white;
-}
-.active {
-  color: rgb(107, 211, 211) !important;
-  border-bottom: 2px solid white;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 10px;
-  font-size: 20px;
-  list-style: none;
-  color: white;
-}
-
-.my_item {
-  font-size: 25px;
-  background: linear-gradient(to right, rgb(145, 245, 145), white);
-  background-clip: text;
-  color: transparent;
-  padding: 10px;
+  /* background-color: rgb(17, 20, 23); */
 }
