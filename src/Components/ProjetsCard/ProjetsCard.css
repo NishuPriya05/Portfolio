@@ -1,0 +1,45 @@
+.prjctcard {
+  max-width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prjctcard img {
+  padding: 20px;
+  text-align: center;
+}
+
+.cardtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.description{
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: rgb(66, 180, 205);
+  color: black;
+  border: 2px solid rgb(66, 180, 205);
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  margin-left: 15px;
+}
+
+.btn:hover {
+   background-color: transparent;
+   color: rgb(66, 180, 205);
+}

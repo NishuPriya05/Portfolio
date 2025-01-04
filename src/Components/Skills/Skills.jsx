@@ -1,5 +1,5 @@
-import "./Skills.css";
-import Card from "../Card/Card";
+import Card from "../SkillsCard/SkillsCard";
+import './Skills.css'
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
@@ -16,15 +16,15 @@ function Skills() {
       </div>
       <div className="container">
         <div className="item">
-          <div className="one">
+          <div className="one" data-aos="flip-left" data-aos-duration="1000">
             <Card title="HTML" image={html} />
             <Card title="CSS" image={css} />
           </div>
-          <div className="two">
+          <div className="two" data-aos="flip-left" data-aos-duration="1000">
             <Card title="JAVASCRIPT" image={javascript} />
             <Card title="MONGODB" image={mongodb} />
           </div>
-          <div className="three">
+          <div className="three" data-aos="flip-left" data-aos-duration="1000">
             <Card title="REACT" image={react} />
           </div>
         </div>

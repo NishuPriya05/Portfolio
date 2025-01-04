@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import "./Nav.css";
 const Navbar = () => {
   return (
-    <nav>
+    <nav data-aos="fade-down" data-aos-duration="1000">
       <h1>PORTFOLIO</h1>
       <ul className="desktop_menu">
         <Link

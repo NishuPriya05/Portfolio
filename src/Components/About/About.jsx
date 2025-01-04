@@ -2,7 +2,7 @@ import "./About.css";
 function About() {
   return (
     <div id="about">
-      <div className="leftabout">
+      <div className="leftabout" data-aos="zoom-in" data-aos-duration="1000">
         <div className="circle-line">
           <div className="circle"></div>
           <div className="line"></div>
@@ -22,6 +22,23 @@ function About() {
               </li>
               <li>
                 <span>GENDER</span> : FEMALE
+              </li>
+              <li>
+                <span>LANGUAGE KNOWN</span> : HINDI, ENGLISH
+              </li>
+            </ul>
+          </div>
+          <div className="education">
+            <h1>EDUCATION</h1>
+            <ul>
+              <li>
+                <span>DEGREE</span> : BTECH
+              </li>
+              <li>
+                <span>BRANCH</span> : COMPUTER SCIENCE AND ENGINEERING
+              </li>
+              <li>
+                <span>CGPA</span> : 8.4
               </li>
             </ul>
           </div>

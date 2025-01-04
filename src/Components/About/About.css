@@ -40,16 +40,16 @@
   flex-direction: column;
 }
 
-.aboutdetails ul{
+.aboutdetails ul {
   list-style: none;
 }
 
-.aboutdetails h1{
+.aboutdetails h1 {
   background: linear-gradient(to right, rgb(198, 42, 96), white);
   background-clip: text;
   color: transparent;
 }
-.aboutdetails li{
+.aboutdetails li {
   color: white;
 }
 .aboutdetails span {

@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./SkillsCard.css";
 import PropTypes from "prop-types";
 
 function Card({ title, image }) {
