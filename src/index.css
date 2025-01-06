@@ -5,8 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", serif;
 }
+
 body {
   background-color: rgb(11, 26, 51);
-  margin: 0;
   overflow-x: hidden;
 }

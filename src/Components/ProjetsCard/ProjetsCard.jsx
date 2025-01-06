@@ -4,13 +4,13 @@ const ProjetsCard = ({title, image, main}) => {
   return (
     <>
       <div className="prjctcard">
-         <img src={image} alt="" />
+         <center><img src={image} alt="" /></center>
          <h3 className='cardtitle'>
             {title}
          </h3>
          <p className='description'>{main}</p>
          <button className="btn">Demo</button>
-         <button className="btn">Source Code</button>
+         <button className="btn">Code</button>
       </div>
 
       <div>

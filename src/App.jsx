@@ -18,12 +18,14 @@ const App = () => {
   
   return (
     <>
+    
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Projects />
       <Contact />
+      
     </>
   );
 };
