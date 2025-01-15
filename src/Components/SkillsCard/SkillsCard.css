@@ -60,3 +60,12 @@
   background-clip: text;
   color: transparent;
 }
+
+@media (max-width: 768px) {
+  .card {
+    margin-top: 34px;
+  }
+  .three .card {
+    margin-top: 0px;
+  }
+}

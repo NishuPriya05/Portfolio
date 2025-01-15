@@ -1,5 +1,5 @@
 import "./Home.css";
-import man from "../../assets/man.png";
+import image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import TypingEffect from "react-typing-effect";
 
@@ -8,7 +8,7 @@ function Home() {
     <div id="home">
       <div className="lefthome" data-aos="fade-left" data-aos-duration="1000">
         <div className="homedetails">
-          <div className="line1">I'M</div>
+          <div className="line1">I&apos;M</div>
           <div className="line2">NISHU PRIYA</div>
           <div className="line3">
             <TypingEffect
@@ -22,12 +22,12 @@ function Home() {
           </div>
 
           <Link to="contact" smooth={true}>
-          <button>Hire Me</button>
+            <button>Hire Me</button>
           </Link>
         </div>
       </div>
       <div className="righthome" data-aos="fade-right" data-aos-duration="1000">
-        <img src={man} alt="" />
+        <img src={image} alt="" />
       </div>
     </div>
   );

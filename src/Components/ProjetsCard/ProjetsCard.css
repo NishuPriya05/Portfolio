@@ -1,41 +1,41 @@
 .prjctcard {
   max-width: 400px;
-  height: 320px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.189);
-  border: 2px solid
-  yellow;
+  border: 2px solid yellow;
   border-radius: 12px;
   overflow: hidden;
   margin: 20px;
+  padding: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .prjctcard img {
-  width: 150px;
-  height: 100px;
-  margin-top: 20px;
-  border: 2px solid yellowgreen;
+  width: 90%;
+  height: 90%;
+ border: 2px solid yellowgreen;
   display: flex;
   align-content: center;
   justify-content: center;
-  
+  border-radius: 10px;
 }
 
 .cardtitle {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
-  color: white;
+  color: #31c4ec;
+  font-family: system-ui;
   margin-top: 10px;
   text-align: center;
 }
-.description{
-  font-size: 1rem;
+.description {
+  font-size: 0.9rem;
   color: white;
+  text-align: justify !important;
   line-height: 1.5;
   margin: 20px;
   text-align: center;
   word-wrap: break-word;
-
 }
 
 .btn {
@@ -49,10 +49,32 @@
   padding: 10px 20px;
   margin-left: 15px;
   margin-top: 10px;
-  
+  text-decoration: none;
+}
+
+.projects-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover {
-   background-color: transparent;
-   color: rgb(66, 180, 205);
+  background-color: transparent;
+  color: rgb(66, 180, 205);
+}
+
+@media (max-width: 576px) {
+  .prjctcard {
+    max-width: 100%;
+  }
+
+  .projects-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prjcts {
+    font-size: 45px;
+  }
 }

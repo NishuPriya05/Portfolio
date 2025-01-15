@@ -47,3 +47,18 @@
   align-items: baseline;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .one,
+  .two {
+    display: block;
+    align-items: baseline;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px;
+  }
+
+  .skills {
+    font-size: 45px;
+  }
+}

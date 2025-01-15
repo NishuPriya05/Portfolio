@@ -1,5 +1,5 @@
 import Card from "../SkillsCard/SkillsCard";
-import './Skills.css'
+import "./Skills.css";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
@@ -11,7 +11,10 @@ function Skills() {
   return (
     <div id="skills">
       <div className="skiltxt">
-       <center> <h1 className="skills">SKILLS</h1></center>
+        <center>
+          {" "}
+          <h1 className="skills">SKILLS</h1>
+        </center>
         {/* <hr className="hrr" /> */}
       </div>
       <div className="container">

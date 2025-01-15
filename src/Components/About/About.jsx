@@ -2,6 +2,9 @@ import "./About.css";
 function About() {
   return (
     <div id="about">
+       <center>
+        <h1 className="abt">ABOUT</h1>
+      </center>
       <div className="leftabout" data-aos="zoom-in" data-aos-duration="1000">
         <div className="circle-line">
           <div className="circle"></div>
@@ -44,7 +47,6 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="rightabout"></div>
     </div>
   );
 }

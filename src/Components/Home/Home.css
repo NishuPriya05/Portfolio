@@ -1,9 +1,13 @@
 #home {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   display: flex;
 }
 
+
+body {
+  overflow-x: hidden;
+}
 .lefthome {
   width: 50%;
   height: 100vh;
@@ -11,7 +15,9 @@
   align-items: center;
   justify-content: center;
   color: white;
+  overflow: hidden;
 }
+
 .righthome {
   width: 50%;
   height: 100vh;
@@ -21,8 +27,10 @@
 }
 
 .righthome img {
-  width: 60%;
+  width: 40%;
   filter: drop-shadow(2px 2px 20px rgb(116, 201, 225));
+  border-radius: 100px;
+  justify-items: center;
 }
 
 .homedetails {
@@ -30,16 +38,21 @@
 }
 
 .line1 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
+
 .line2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   background: linear-gradient(to right, rgb(145, 245, 145), white);
   background-clip: text;
   color: transparent;
 }
-.line1 {
-  font-size: 1rem;
+
+.line3 {
+  width: 300px;
+  height: 50px;
+  font-size: 1.5rem;
+  overflow: hidden;
 }
 
 .homedetails button {
@@ -53,6 +66,7 @@
   cursor: pointer;
   transition: all 0.2s;
 }
+
 .homedetails button:hover {
   background-color: transparent;
   color: rgb(66, 180, 205);
@@ -70,5 +84,27 @@
     width: 100%;
     height: 50vh;
     align-items: end;
+  }
+
+  .righthome {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .righthome img {
+    width: 60%;
+    filter: drop-shadow(2px 2px 20px rgb(116, 201, 225));
+    border-radius: 100px;
+    justify-items: center;
+  }
+}
+@media (max-width: 2560px) {
+  .righthome img {
+    width: 40%;
+    filter: drop-shadow(2px 2px 20px rgb(116, 201, 225));
+    border-radius: 400px;
+    justify-items: center;
+    align-items: center;
   }
 }
