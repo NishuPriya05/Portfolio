@@ -16,7 +16,6 @@ const Projects = () => {
           demoLink="https://techworld-blog.netlify.app/"
           sourceCode="https://github.com/NishuPriya05/Mega-Blog"
         />
-    
       </div>
     </div>
   );

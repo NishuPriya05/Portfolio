@@ -1,8 +1,8 @@
 #about {
   width: 100%;
   height: 100%;
-  scroll-margin-top: 100px;
 }
+
 
 .leftabout {
   width: 50%;
@@ -14,14 +14,13 @@
   margin-left: 150px;
 }
 
-.abt{
+.abt {
   color: white;
   letter-spacing: 2px;
   font-size: 60px;
   background: linear-gradient(to top, rgb(7, 70, 164), white);
   background-clip: text;
   color: transparent;
-  
 }
 .circle-line {
   display: flex;
@@ -66,7 +65,7 @@
   color: #93ecfc;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
   #about {
     width: 100%;
     height: 100%;
@@ -76,7 +75,7 @@
   }
 }
 
-@media(max-width:320px){
+@media (max-width: 320px) {
   #about {
     width: 100%;
     height: 100%;

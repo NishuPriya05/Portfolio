@@ -12,11 +12,10 @@ function Skills() {
     <div id="skills">
       <div className="skiltxt">
         <center>
-          {" "}
           <h1 className="skills">SKILLS</h1>
         </center>
-        {/* <hr className="hrr" /> */}
       </div>
+
       <div className="container">
         <div className="item">
           <div className="one" data-aos="flip-left" data-aos-duration="1000">
