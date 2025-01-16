@@ -1,12 +1,84 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import "./About.css";
+
+gsap.registerPlugin(ScrollTrigger);
 function About() {
+  useGSAP(() => {
+    gsap.from(".circle", {
+      x: -100,
+      duration: 1,
+      opacity: 0,
+      stagger: 1,
+      scrollTrigger: {
+        trigger: ".circle",
+        scroll: "body",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%",
+      },
+    });
+    gsap.from(".line", {
+      x: -100,
+      duration: 1,
+      opacity: 0,
+      stagger: 1,
+      scrollTrigger: {
+        trigger: ".line",
+        scroll: "body",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%",
+      },
+    });
+    gsap.from(".aboutdetails h1", {
+      x: -100,
+      duration: 1,
+      opacity: 0,
+      stagger: 1,
+      scrollTrigger: {
+        trigger: ".aboutdetails h1",
+        scroll: "body",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%",
+      },
+    });
+    gsap.from(".aboutdetails ul", {
+      y: 100,
+      duration: 1,
+      opacity: 0,
+      stagger: 1,
+      scrollTrigger: {
+        trigger: ".aboutdetails ul",
+        scroll: "body",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%",
+      },
+    });
+    gsap.from(".abt", {
+      y: 100,
+      duration: 1,
+      opacity: 0,
+      stagger: 1,
+      scrollTrigger: {
+        trigger: ".abt",
+        scroll: "body",
+        scrub: 2,
+        start: "top 60%",
+        end: "top 30%",
+      },
+    });
+  });
   return (
     <>
       <div id="about">
         <center>
           <h1 className="abt">ABOUT</h1>
         </center>
-        <div className="leftabout" data-aos="zoom-in" data-aos-duration="1000">
+        <div className="leftabout">
           <div className="circle-line">
             <div className="circle"></div>
             <div className="line"></div>

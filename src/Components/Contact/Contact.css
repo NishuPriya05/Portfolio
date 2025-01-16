@@ -1,6 +1,7 @@
 #contact {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .cnt {
@@ -30,12 +31,13 @@
 
 .leftcontact img {
   width: 100%;
+  height: auto;
   filter: drop-shadow(2px 2px 10px rgb(87, 196, 220));
 }
 
 .rightcontact {
   width: 50%;
-  height: 100vh;
+  max-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,15 +102,16 @@ form input {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
+  margin: 0px;
 }
 
 .items {
   background-color: black;
-  margin: 10px;
+  margin: 3px;
   height: 70px;
   width: 70px;
-  border-radius: 80px;
+  border-radius: 200px;
   border: 3px solid yellow;
   color: white;
   font-size: 2rem;
@@ -169,28 +172,30 @@ form input {
     color: white;
     letter-spacing: 2px;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 30px;
     background: linear-gradient(to top, rgb(7, 70, 164), white);
     background-clip: text;
     color: transparent;
     margin-top: 90px;
   }
 
+  form {
+    width: 90%;
+    height: 70%;
+  }
+
   .items {
     background-color: black;
-    margin: 3px;
-    height: 70px;
-    width: 70px;
+    height: 50%;
+    width: 40%;
     border-radius: 200px;
     border: 3px solid yellow;
     color: white;
-    font-size: 2rem;
     cursor: pointer;
     margin-bottom: 50px;
   }
-
-  .icon :hover {
-    box-shadow: 2px 2px 10px rgb(105, 208, 215), 2px 2px 20px rgb(105, 208, 215);
+  .icon {
+    gap: 0px;
   }
 }
 

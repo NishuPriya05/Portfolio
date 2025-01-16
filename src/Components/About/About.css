@@ -1,6 +1,7 @@
 #about {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .abt {
@@ -74,3 +75,12 @@
   }
 }
 
+@media (max-width: 320px){
+  .leftabout{
+    margin-left: 80px;
+  }
+  #about {
+    width: 100%;
+    height: 100%;
+  }
+}
