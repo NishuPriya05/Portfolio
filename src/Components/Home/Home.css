@@ -26,7 +26,7 @@
 .righthome img {
   width: 40%;
   filter: drop-shadow(2px 2px 20px rgb(116, 201, 225));
-  border-radius: 100px;
+  border-radius: 150px;
   justify-items: center;
 }
 
