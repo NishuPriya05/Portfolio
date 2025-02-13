@@ -5,7 +5,9 @@ const ProjetsCard = ({ title, image, main, sourceCode, demoLink }) => {
     <>
       <div className="prjctcard">
         <center>
-          <img src={image} alt="" />
+          <div className="projectImg">
+            <img src={image} alt="" />
+          </div>
         </center>
         <h3 className="cardtitle">{title}</h3>
         <p className="description">{main}</p>

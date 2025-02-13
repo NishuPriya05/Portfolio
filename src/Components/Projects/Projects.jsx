@@ -53,10 +53,7 @@ const Projects = () => {
         <ProjetsCard
           title="Style Me"
           image={styleme}
-          className="styleme"
-          main="StyleMe is a full-stack e-commerce web application designed to provide a seamless shopping experience. The platform features user authentication (login/signup), product filtering & sorting, an intuitive cart system, and a secure checkout process using Stripe. 
-
-The project includes a dedicated admin panel that allows administrators to add, update, and delete products, as well as manage user orders efficiently."
+          main=" Developed a full-stack e-commerce application with user authentication, product filtering & sorting, and a seamless cart system. Integrated Stripe for secure payments and built an admin panel for managing products and tracking orders efficiently."
           demoLink=" https://style-me-pi.vercel.app/"
           sourceCode="https://github.com/NishuPriya05/Style-Me"
         />
