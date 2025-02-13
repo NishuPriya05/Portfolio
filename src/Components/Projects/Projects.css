@@ -14,6 +14,10 @@
   color: transparent;
   margin-top: 90px;
 }
+
+.styleme {
+  height: 100%;
+}
 .prjctcont {
   height: 100%;
   display: flex;
